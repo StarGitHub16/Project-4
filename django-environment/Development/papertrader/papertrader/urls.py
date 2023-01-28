@@ -18,6 +18,6 @@ from django.urls import path
 from paper import views as paper_view
 
 urlpatterns = [
-    path('home/', paper_view.index, name='index'),
+    path('home/', paper_view.homepage, name='homepage'),
     path('admin/', admin.site.urls),
 ]
